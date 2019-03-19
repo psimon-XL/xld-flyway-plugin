@@ -57,7 +57,7 @@
                   required="false"
                   description="The name of Flyway's metadata table."/>
         <property name="locations"
-                  kind="set_of_string"
+                  kind="list_of_string"
                   required="false"
                   description="List of locations to scan recursively for migrations."/>
         <property name="encoding"
